@@ -7,7 +7,7 @@ import { ScrollAnimationDirective } from '../scroll-animation.directive';
   standalone: true,
   imports: [CommonModule, ScrollAnimationDirective],
   template: `
-    <section class="py-16 bg-white dark:bg-gray-900">
+    <section class="py-16 bg-white dark:bg-gray-900 ">
       <div class="container mx-auto px-4">
         <div scrollAnimation class="max-w-3xl mx-auto text-center opacity-0">
           <div class="bg-gradient-to-r from-blue-500 to-purple-600 p-8 rounded-2xl shadow-xl">
@@ -17,8 +17,8 @@ import { ScrollAnimationDirective } from '../scroll-animation.directive';
             <p class="text-gray-100 mb-8">
               Get a detailed look at my experience and skills
             </p>
-            <a href="assets/cv.pdf"
-               download="YourName_CV.pdf"
+            <a href="assets/Cv.pdf"
+               download="Cv.pdf"
                class="group inline-flex items-center gap-2 bg-white text-blue-600 px-6 py-3 rounded-lg
                       hover:bg-blue-50 transition-all duration-300 transform hover:scale-105">
               <span>Download CV</span>
